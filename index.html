@@ -10,23 +10,17 @@
     <div class="container">
         <h1>Convertisseur</h1>
         <div class="source">
-            <select name="source" id="devise_source" placeholder="">
+            <select id="source" placeholder="">
                 <option value="" disabled selected hidden>Choisissez la monnaie source</option>
-                <option value="fcfa">FCFA (XAF)</option>
-                <option value="euro">EURO (EUR)</option>
-                <option value="dollar">DOLLAR (USD)</option>
             </select>
             <input type="number" id="amount" placeholder="0" min="0">
-            <button type="submit" id="convert">Conversion</button>
+            <button type="submit" id="convert" onclick="convert()">Conversion</button>
         </div>
         <div class="target">
-            <select name="source" id="devise_source">
+            <select id="target">
                 <option value="" disabled selected hidden>Choisissez la monnaie cible</option>
-                <option value="fcfa">FCFA (XAF)</option>
-                <option value="euro">EURO (EUR)</option>
-                <option value="dollar">DOLLAR (USD)</option>
             </select>
-            <input type="text" id="convertValue" placeholder="0">
+            <p id="convertValue">0</p>
         </div>
     </div>
 

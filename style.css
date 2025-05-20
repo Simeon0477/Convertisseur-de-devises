@@ -20,7 +20,7 @@ body{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    min-width: 430px;
+    min-width: 480px;
     width: 30%;
     box-shadow: 5px 5px 5px 5px rgb(154, 153, 153);
 }
@@ -38,6 +38,17 @@ input{
     color: black;
     outline: none;
     padding: 5px;
+    border: 2px solid rgb(86, 85, 85);
+    border-radius: 5px;
+    text-align: left;
+    font-size: 16px;
+    text-align: right;
+}
+
+p{
+    color: black;
+    outline: none;
+    padding: 5px 19px 5px;
     border: 2px solid rgb(86, 85, 85);
     border-radius: 5px;
     text-align: left;
